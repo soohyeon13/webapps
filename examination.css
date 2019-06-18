@@ -1,0 +1,99 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+html, body{background:#f6f6fa;height:100%;font-size:12px;line-height:1.5;font-family:'Apple SD Gothic Neo','맑은고딕','Malgun Gothic','돋움',dotum,'Helvetica Neue',Helvetica,sans-serif ;color:#767676}
+address,caption,cite,code,dfn,em,var {font-style: normal;font-weight: normal}
+header,footer,section,article,aside,nav,hgroup,details,menu,figure,figcaption {display: block;margin: 0;padding: 0}
+dl, ul, ol, menu, li {list-style: none;}
+a{color:#333;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+
+body {
+    background-image:url("./images/bg.gif");
+    background-repeat: repeat;
+}
+
+.content {
+    width: 1390px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoContent {
+    width: 190px;
+    display: inline-block;
+    background-image: url("./images/bg_header.gif");
+    background-repeat: repeat;
+    border-left: 1px solid #4d5669;
+    border-right: 1px solid #4d5669;
+}
+
+.logo {
+    background-image: url("./images/logo.png");
+    width: 131px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: flex;
+}
+.basicWebText {
+    font-size: 19px;
+    color: #d6d8dc;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.mainBox {
+    flex: 1;
+    display: flex;
+}
+.box {
+    width: 300px;
+    padding: 35px 25px 35px 25px;
+    box-shadow: inset -5px 0 5px #282d36;
+}
+.boxTitle {
+    line-height: 1.25em;
+    font-size: 2em;
+    font-weight: normal;
+    color: #d6d8dc
+}
+.boxSubTitle {
+    line-height: 1.5em;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    color: #febe1e
+}
+.boxExplain {
+    height: 150px;
+    color: #a7a7a7
+}
+.itemList {
+    color: #fff;
+    margin-bottom: 7px;
+}
+.newspeed {
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #868c98
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list > a {
+    margin-bottom: 7px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between; 
+}
+@media only screen and (max-width: 798px){
+   
+}
